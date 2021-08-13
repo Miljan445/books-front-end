@@ -1,0 +1,27 @@
+.login-form {
+  width: 500px;
+  height: auto;
+  margin: 0 auto;
+  padding: 50px;
+  border-radius: 20px;
+  background-color: rgb(204, 204, 204);
+
+  .input-group {
+    margin-top: 10px;
+
+    label {
+      display: block;
+    }
+  }
+
+  input[type="submit"] {
+    display: block;
+    margin: 15px auto 0;
+    cursor: pointer;
+  }
+
+  .error-box {
+    background-color: #f15a5a;
+    color: #fff;
+  }
+}
