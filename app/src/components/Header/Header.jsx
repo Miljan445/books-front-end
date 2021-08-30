@@ -1,12 +1,16 @@
 import React, { Component } from "react";
-import PropTypes from "prop-types";
 import "./header.scss";
+import Logo from "./Logo";
+import Navigation from "./Navigation";
 
 class Header extends Component {
-  static propTypes = {};
-
   render() {
-    return <div>Test</div>;
+    return (
+      <header>
+        <Logo />
+        <Navigation />
+      </header>
+    );
   }
 }
 
