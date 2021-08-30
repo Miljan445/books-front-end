@@ -1,3 +1,7 @@
+@use 'normalize';
 @use 'variables';
+@use 'base';
 @use 'typography';
 @use 'mixins';
+
+@import "../components/Header/header";

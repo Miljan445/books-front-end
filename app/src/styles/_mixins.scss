@@ -1,1 +1,18 @@
-// some styles goes here
+@mixin BgImg($urlPath, $bgSize) {
+  background: url($urlPath) center no-repeat;
+  background-size: $bgSize;
+}
+
+@mixin flex-center($direction) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin absolute($x, $y) {
+  position: absolute;
+  left: $x;
+  top: $y;
+  transform: translate(-$x, -$y);
+}
