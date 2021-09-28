@@ -1,7 +1,9 @@
-@use 'normalize';
-@use 'variables';
-@use 'base';
-@use 'typography';
-@use 'mixins';
+@import 'normalize';
+@import 'variables';
+@import 'base';
+@import 'typography';
+@import 'mixins';
 
+@import "../components/Header/Logo/logo";
+@import "../components/Header/Navigation/navigation";
 @import "../components/Header/header";

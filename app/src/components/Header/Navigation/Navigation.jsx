@@ -11,6 +11,7 @@ class Navigation extends Component {
 
   renderMenuLinks() {
     // TODO: Dodaj sve linkove i povuci iz redux-a dal je user logovan i onda prema tome generisi razlicite linkove za razlicite usere
+    
 
     const menuLinks = [
       {
@@ -31,7 +32,7 @@ class Navigation extends Component {
       );
     });
   }
-
+  // TODO: Dodaj hamburger meni na < 500px
   render() {
     return <nav>{this.renderMenuLinks()}</nav>;
   }
